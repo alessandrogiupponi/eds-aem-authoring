@@ -5,6 +5,18 @@
       "id": "default",
       "components": [
         {
+          "title": "WKND Title",
+          "id": "wknd-title",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "wknd/components/title",
+                "template": {}
+              }
+            }
+          }
+        },
+        {
           "title": "Text",
           "id": "text",
           "plugins": {
