@@ -24,15 +24,14 @@
       "text",
       "image",
       "button",
-      "wknd-title"
+      "wknd-title",
       "title",
       "hero",
       "cards",
       "columns",
       "fragment",
       "quote",
-      "aem-content-fragment",
-      "image-list"
+      "aem-content-fragment"
     ]
   },
   {
