@@ -179,18 +179,7 @@
               }
             }
           }
-        },
-        {
-            "title": "Image List",
-            "id": "image-list",
-            "plugins": {
-                "aem": {
-                    "page": {
-                        "resourceType": "wknd/components/image-list"
-                    }
-                }
-            }
-        },
+        }
       ]
     }
   ]
