@@ -271,5 +271,47 @@
          "value": ""
        }
      ]
-  }
+  },
+  {
+    "id": "image-list",
+    "fields": [
+        {
+            "component": "select",
+            "name": "listFrom",
+            "label": "Build List Using",
+            "valueType": "string",
+            "options": [
+                { "name": "Child pages", "value": "children" },
+                { "name": "Fixed list", "value": "static" },
+                { "name": "Search", "value": "search" },
+                { "name": "Tags", "value": "tags" }
+            ]
+        },
+        {
+            "component": "select",
+            "name": "sortOrder",
+            "value": "desc",
+            "label": "Sort Order",
+            "valueType": "string",
+            "options": [
+                { "name": "Ascending", "value": "asc" },
+                { "name": "Descending", "value": "desc" }
+            ]
+        },
+        {
+            "component": "aem-content",
+            "label": "Parent Page",
+            "name": "parentPage",
+            "valueType": "string",
+            "condition": { "===": [{"var" : "listFrom"}, "children"] }
+        },
+        {
+            "component": "number",
+            "name": "maxItems",
+            "label": "Max Items",
+            "valueType": "number",
+            "value": 0
+        }
+    ]
+},
 ]
