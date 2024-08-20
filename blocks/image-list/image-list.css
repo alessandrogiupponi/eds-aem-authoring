@@ -12,15 +12,15 @@
   background-color: var(--background-color);
 }
 
-.image-list .cards-card-body {
+.image-list .image-list-item-body {
   margin: 16px;
 }
 
-.image-list .cards-card-image {
+.image-list .image-list-item-image {
   line-height: 0;
 }
 
-.image-list .cards-card-body > *:first-child {
+.image-list .image-list-item-body > *:first-child {
   margin-top: 0;
 }
 
