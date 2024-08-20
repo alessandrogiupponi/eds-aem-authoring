@@ -14,6 +14,7 @@
 
 .image-list .image-list-item-body {
   margin: 16px;
+  display: inline-grid;
 }
 
 .image-list .image-list-item-image {
