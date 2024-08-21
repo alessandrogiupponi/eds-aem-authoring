@@ -6,7 +6,16 @@
   grid-gap: 16px;
 }
 
-.image-list .cmp-image-list {
+.adventures .cmp-image-list {
   margin: 16px;
   display: inline-grid;
+}
+
+.adventures .adventure-item-image {
+  border-radius: 8px;
+  width: 100%;
+  aspect-ratio: 5/4;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
 }
