@@ -299,6 +299,14 @@
           ]
       },
       {
+        "component": "aem-content",
+        "name": "pages",
+        "value": "",
+        "label": "Pages",
+        "valueType": "string[]",
+        "condition": { "===": [{"var" : "listFrom"}, "static"] }
+      },
+      {
           "component": "aem-content",
           "label": "Parent Page",
           "name": "parentPage",
