@@ -306,6 +306,13 @@
           "condition": { "===": [{"var" : "listFrom"}, "children"] }
       },
       {
+        "component": "aem-tag",
+        "label": "AEM Tag Picker",
+        "name": "tags",
+        "valueType": "string",
+        "condition": { "===": [{"var" : "listFrom"}, "tags"] }
+      },
+      {
           "component": "number",
           "name": "maxItems",
           "label": "Max Items",
