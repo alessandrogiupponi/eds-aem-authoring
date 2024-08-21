@@ -26,3 +26,14 @@
   font-weight: 500;
   line-height:41px
 }
+
+.adventures .adventure-item-price {
+  background-color: black;
+  opacity: 25%;
+  color: white;
+  text-align: center;
+  border-radius: 35px;
+  padding: 5px;
+  display: inline-flex;
+  border: 10px solid black;
+}
