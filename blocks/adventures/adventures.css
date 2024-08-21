@@ -1,0 +1,12 @@
+.adventures {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+  grid-gap: 16px;
+}
+
+.image-list .cmp-image-list {
+  margin: 16px;
+  display: inline-grid;
+}
