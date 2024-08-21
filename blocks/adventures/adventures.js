@@ -8,7 +8,7 @@ export default function decorate(block) {
     row.children[2].className = 'adventure-item-price';
     row.firstElementChild.append(row.children[2]);
     row.children[1].className = 'adventure-item-title';
-    row.querySelectorAll('picture > img').forEach((img) => {
+    row.firstElementChild.querySelectorAll('img').forEach((img) => {
       const optimizedPic = createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]);
       moveInstrumentation(img, optimizedPic.querySelector('img'));
       optimizedPic.querySelector('img').className = 'adventure-item-image';
