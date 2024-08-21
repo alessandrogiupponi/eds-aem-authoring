@@ -106,6 +106,17 @@
           }
         },
         {
+          "title": "Adventures",
+          "id": "adventures",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "wknd/components/adventures"
+              }
+            }
+          }
+        },
+        {
           "title": "Image List",
           "id": "image-list",
           "plugins": {
