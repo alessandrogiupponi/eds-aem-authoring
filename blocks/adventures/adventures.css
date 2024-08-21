@@ -35,12 +35,11 @@
   color: white;
   text-align: center;
   border-radius: 35px;
-  padding: 5px;
+  padding: 0 20px 0 20px;
   display: inline-flex;
-  border: 10px solid black;
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 10px;
 }
 
 .adventures .adventure-image-card {
