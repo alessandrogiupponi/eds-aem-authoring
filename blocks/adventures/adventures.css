@@ -19,3 +19,10 @@
   object-position: center;
   overflow: hidden;
 }
+
+.adventures .adventure-item-title {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height:41px
+}
