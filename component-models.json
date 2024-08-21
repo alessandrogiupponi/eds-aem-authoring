@@ -313,6 +313,17 @@
         "condition": { "===": [{"var" : "listFrom"}, "tags"] }
       },
       {
+          "component": "select",
+          "name": "tagsMatch",
+          "label": "Tags Match",
+          "valueType": "string",
+          "options": [
+              { "name": "Any Tags", "value": "any" },
+              { "name": "All Tags", "value": "all" }
+          ],
+          "condition": { "===": [{"var" : "listFrom"}, "tags"] }
+      },
+      {
           "component": "number",
           "name": "maxItems",
           "label": "Max Items",
