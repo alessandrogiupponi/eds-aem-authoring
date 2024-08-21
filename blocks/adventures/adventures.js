@@ -4,6 +4,12 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 export default function decorate(block) {
   [...block.children].forEach((row) => {
     row.className = 'adventure-item';
+    row.querySelectorAll('picture > img').forEach((img) => {
+      const optimizedPic = createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]);
+      moveInstrumentation(img, optimizedPic.querySelector('img'));
+      img.closest('picture').replaceWith(optimizedPic);
+      img.className = 'adventure-item-image';
+    });
   });
 }
 
