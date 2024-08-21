@@ -7,8 +7,8 @@ export default function decorate(block) {
     row.querySelectorAll('picture > img').forEach((img) => {
       const optimizedPic = createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]);
       moveInstrumentation(img, optimizedPic.querySelector('img'));
+      optimizedPic.querySelector('img').className = 'adventure-item-image';
       img.closest('picture').replaceWith(optimizedPic);
-      img.className = 'adventure-item-image';
     });
   });
 }
