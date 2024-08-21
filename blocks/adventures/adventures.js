@@ -3,6 +3,9 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default function decorate(block) {
   [...block.children].forEach((row) => {
+    const li = document.createElement('li');
+    while (row.firstElementChild) 
+      li.append(row.firstElementChild);
     row.className = 'adventure-item';
     row.querySelectorAll('picture > img').forEach((img) => {
       const optimizedPic = createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]);
