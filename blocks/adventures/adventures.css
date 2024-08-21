@@ -24,7 +24,9 @@
   margin-bottom: 5px;
   text-transform: capitalize;
   font-weight: 500;
-  line-height:41px
+  line-height:41px;
+  margin-top: 5px;
+  font-size: larger;
 }
 
 .adventures .adventure-item-price {
