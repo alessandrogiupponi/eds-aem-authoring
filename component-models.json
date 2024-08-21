@@ -306,6 +306,13 @@
           "condition": { "===": [{"var" : "listFrom"}, "children"] }
       },
       {
+          "component": "aem-content",
+          "label": "Tags Search Root",
+          "name": "tagsSearchRoot",
+          "valueType": "string",
+          "condition": { "===": [{"var" : "listFrom"}, "tags"] }
+      },
+      {
         "component": "aem-tag",
         "label": "AEM Tag Picker",
         "name": "tags",
