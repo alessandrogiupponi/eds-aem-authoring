@@ -304,6 +304,7 @@
         "value": "",
         "label": "Pages",
         "valueType": "string[]",
+        "multi": true,
         "condition": { "===": [{"var" : "listFrom"}, "static"] }
       },
       {
