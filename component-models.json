@@ -190,28 +190,6 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      },
-      {
-        "component": "select",
-        "name": "align",
-        "value": "",
-        "label": "Align",
-        "valueType": "string",
-        "raw": "data-align",
-        "options": [
-          {
-            "name": "default",
-            "value": ""
-          },
-          {
-            "name": "Left",
-            "value": "left"
-          },
-          {
-            "name": "Right",
-            "value": "right"
-          }
-        ]
       }
     ]
   },
