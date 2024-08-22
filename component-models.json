@@ -254,6 +254,25 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "summary",
+        "value": "",
+        "label": "Summary",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "details",
+        "label": "Details",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
        {
