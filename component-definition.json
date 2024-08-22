@@ -90,7 +90,7 @@
       "components": [
         {
           "title": "Accordion",
-          "accordion",
+          "id": "accordion",
           "plugins": {
             "xwalk": {
               "page": {
