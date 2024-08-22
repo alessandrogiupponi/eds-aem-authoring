@@ -197,7 +197,7 @@
         "value": "",
         "label": "Align",
         "valueType": "string",
-        "raw": "align",
+        "raw": "data-align",
         "options": [
           {
             "name": "default",
