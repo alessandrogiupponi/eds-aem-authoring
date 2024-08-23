@@ -210,9 +210,9 @@
     "fields": [
       {
         "component": "text",
-        "name": "title",
+        "name": "style",
         "value": "",
-        "label": "Title",
+        "label": "Style",
         "valueType": "string"
       }
     ]
