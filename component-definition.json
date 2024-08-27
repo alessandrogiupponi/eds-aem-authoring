@@ -88,7 +88,10 @@
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "wknd/components/image-list"
+                "resourceType": "wknd/components/image-list",
+                "template": {
+                  "listFrom": "children",
+                  "parentPage": "/content/wknd/language-masters/en/adventures"
               }
             }
           }
