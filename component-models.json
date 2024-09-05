@@ -48,6 +48,13 @@
         "name": "foreground_description",
         "label": "Description",
         "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "goto",
+        "label": "Teaser Link",
+        "multi": false
       }
     ]
   },
