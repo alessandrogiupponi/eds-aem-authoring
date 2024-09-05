@@ -1,8 +1,8 @@
-.block .teaser {
+.block.teaser {
     display: grid;
 }
 
-.block-teaser > div {
+.block.teaser > div {
     grid-row: 1;
     grid-column: 1;
 }
