@@ -1,5 +1,17 @@
 [
   {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Teaser Image",
+        "multi": false
+      }
+    ]
+  },
+  {
     "id": "wknd-title",
     "fields": [
       {
