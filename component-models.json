@@ -3,7 +3,7 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "reference"
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Background Image",
