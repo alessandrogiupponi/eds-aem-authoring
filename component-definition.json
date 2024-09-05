@@ -32,9 +32,9 @@
                 "template": {
                   "name": "Teaser",
                   "model": "teaser",
-                  "pretitle": "Pretitle",
-                  "title": "Title",
-                  "description": "<p>Description!!!</p>"
+                  "foreground_pretitle": "Pretitle",
+                  "foreground_title": "Title",
+                  "foreground_description": "<p>Description!!!</p>"
                 }
               }
             }
