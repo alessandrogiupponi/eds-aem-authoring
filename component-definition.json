@@ -51,7 +51,8 @@
                   "model": "teaser",
                   "foreground_pretitle": "Pretitle",
                   "foreground_title": "Title",
-                  "foreground_description": "<p>Description!!!</p>"
+                  "foreground_description": "<p>Description!!!</p>",
+                  "classes": ["light", "left"]
                 }
               }
             }
