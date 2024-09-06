@@ -3,6 +3,12 @@
     "id": "teaser",
     "fields": [
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "data-teaser-name",
+        "label": "Teaser Name"
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "background_image",
