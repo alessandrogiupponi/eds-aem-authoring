@@ -31,6 +31,12 @@
         "value": ""
       },
       {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "foreground_titleLink",
+        "label": "Title CTA"
+      },
+      {
         "component": "select",
         "name": "foreground_titleType",
         "value": "h3",
