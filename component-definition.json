@@ -26,7 +26,8 @@
                 "template": {
                   "name": "Tab",
                   "model": "tab",
-                  "filter": "section"
+                  "filter": "section",
+                  "classes": ["tab-name"]
                 }
               }
             }
